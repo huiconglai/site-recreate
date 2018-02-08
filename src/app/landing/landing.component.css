@@ -1,0 +1,74 @@
+#mainHeader {
+    color: white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+
+p.white {
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+h6.verticalTitle {
+    color: rgb(202, 78, 97);
+}
+
+p.black {
+    padding-left:5%;
+}
+
+button {
+    background-color: white; 
+    color: rgb(202, 78, 97);
+    border: none;
+    padding: 0px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+
+.horizontal-info {
+    padding-left: 95px;
+    padding-top: 60px;
+    padding-right: 95px;
+  }
+
+.vertical-info {
+    display: flex;
+    padding-left: 95px;
+    padding-top: 60px;
+    padding-right: 95px;
+  }
+
+.img-responsive { 
+    width:100%;
+    height: auto;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0px;
+  }
+
+  .logo-size {
+    padding-left: 50px;
+    padding-bottom: 15px;
+      padding-top: 15px;
+      max-width: 55%;
+  }
+
+ul {
+    padding-left:15px;
+}
