@@ -87,19 +87,19 @@ ul.vertical-data {
     padding-left:15px;
 }
 
-ul.top-nav-bar {
+ul.top-nav-bar  {
     list-style-type: none;
     margin: 0;
     padding-right: 25px;
     overflow: hidden;
 }
 
-li.top-nav {
+.top-nav-bar li {
     font-size: 0.9em;
     float: right;
 }
 
-li.top-nav a {
+.top-nav-bar a {
     display: block;
     color: black;
     text-align: center;
@@ -107,6 +107,6 @@ li.top-nav a {
     text-decoration: none;
 }
 
-li.top-nav a:hover {
+.top-nav-bar a:hover {
     color: grey;
 }
