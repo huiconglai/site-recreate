@@ -1,5 +1,4 @@
 #mainHeader {
-    color: white;
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
@@ -7,25 +6,40 @@
     padding-bottom: 10px;
 }
 
-p.white {
+.color-white {
     color: white;
-    padding-bottom: 20px;
 }
 
+.color-main-red {
+    color: rgb(181, 59, 84);
+}
 
-h6.verticalTitle {
-    color: rgb(202, 78, 97);
+p.first {
+    padding-bottom: 20px;
 }
 
 p.black {
     padding-left:5%;
 }
 
-button {
-    background-color: white; 
-    color: rgb(202, 78, 97);
+button.swwd {
+    background-color: white;   
     border: none;
     padding: 0px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button.saos {
+    background-color: rgb(202, 78, 97);
+    border: none;
+    padding: 10px 28px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left:auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -63,12 +77,36 @@ button {
   }
 
   .logo-size {
-    padding-left: 50px;
+    padding-left: 25px;
     padding-bottom: 15px;
       padding-top: 15px;
-      max-width: 55%;
+      max-width: 65%;
   }
 
-ul {
+ul.vertical-data {
     padding-left:15px;
+}
+
+ul.top-nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 25px;
+    overflow: hidden;
+}
+
+li.top-nav {
+    font-size: 0.9em;
+    float: right;
+}
+
+li.top-nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.top-nav a:hover {
+    color: grey;
 }

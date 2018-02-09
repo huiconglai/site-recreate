@@ -1,9 +1,18 @@
 
-<div class="container-fluid no-padding">
+<div class="container-fluid no-padding" style="overflow:hidden;">
 
     <div class="row">
-        <div class="col-xs-1">
-            <img class="img-fluid logo-size" [src]="logoPath" alt="writing on paper" >
+
+        <div class="col-lg-2">
+          <img class="img-fluid logo-size" [src]="logoPath" alt="Snappymob logo" >
+        </div>
+        <div class="col-lg-10" style="margin:auto;">
+            <ul class="top-nav-bar">             
+                <li class="top-nav"><a class="active" href="#home">Careers</a></li>
+                <li class="top-nav"><a href="#news">Contact Us</a></li>
+                <li class="top-nav"><a href="#contact">Case Studies</a></li>
+                <li class="top-nav"><a href="#about">Services</a></li>
+              </ul>
         </div>
     </div>
 
@@ -14,10 +23,10 @@
     
         <div class="col-lg-6 vertical-center" style="background-color:rgb(202, 78, 97);">
           <div>  
-          <h1 id="mainHeader">Your product deserves a great user experience.</h1>
-          <p class="white">Snappymob develops awesome mobile and web experience for our clients and their customers.</p>
+          <h1 id="mainHeader" class="color-white">Your product deserves a great user experience.</h1>
+          <p class="color-white first">Snappymob develops awesome mobile and web experience for our clients and their customers.</p>
 
-          <button type="button">See what we do</button>
+          <button class="color-main-red swwd" type="button">See what we do</button>
           </div>
         </div>
     </div>
@@ -34,10 +43,10 @@
     
         <div class="col-lg-3 vertical-info">
           <div>  
-          <h6 class="verticalTitle">Product design</h6>
+          <h6 class="color-main-red">Product design</h6>
           <p>Our passion for UI/UX shows itself in every product we work on. Our design team obsesses over all the little details.</p>
 
-          <ul>
+          <ul class="vertical-data">
               <li>Design Sprints</li>
               <li>Design Prototypes</li>
               <li>UI/ UX Research and Analysis</li>
@@ -52,7 +61,7 @@
           <h6 class="verticalTitle">Mobile and TV Development</h6>
           <p>Great apps need a great engineering. Our experienced software developers delivers quality engineering in all our work.</p>
 
-          <ul>
+          <ul class="vertical-data">
               <li>iOS Development</li>
               <li>tvOS Development</li>
               <li>Android Development</li>
@@ -67,7 +76,7 @@
           <h6 class="verticalTitle">Web Development</h6>
           <p>The cloud backs mosts great products. We do it all – from great looking websites to sophisticated backend services.</p>
 
-          <ul>
+          <ul class="vertical-data">
               <li>Web Front End Development</li>
               <li>Backend Development</li>
               <li>Cloud Based System Development</li>
@@ -79,7 +88,7 @@
           <div>  
           <h6 class="verticalTitle">Strategy</h6>
           <p>Building a product is only half the problem. How do you gain traction and grow your market? We’ll be your guide with our extensive knowledge and experience.</p>
-          <ul>
+          <ul class="vertical-data">
               <li>MVP Proposals</li>
               <li>Product Roadmap Proposals</li>
               <li>Product Growth &amp; Marketing Strategy</li>
@@ -87,5 +96,20 @@
           </div>
         </div>
     </div>
+
+    <div class="row" style="margin-left:auto;">
+        <div class="col-lg-12 text-center">
+            <button class="color-white saos" type="button">See all our services</button>
+          </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <img class="img-responsive"[src]="bfmCarPlayPath" alt="BFM Car Play" >
+          </div>
+    </div>
+    
+
+
 </div>
 
