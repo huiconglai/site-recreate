@@ -2,19 +2,33 @@
     <div class="row">
 
         <div class="col-lg-2">
-          <img class="logo-size" [src]="logoPath" alt="Snappymob logo" >
+            <a routerLink="/home" class="whatWeDo red"><img class="logo-size" [src]="logoPath" alt="Snappymob logo" ></a>
         </div>
         <div class="col-lg-10" style="margin:auto;">
             <ul class="top-nav-bar">             
                 <li><a href="#home">Careers</a></li>
                 <li><a href="#news">Contact Us</a></li>
                 <li><a href="#contact">Case Studies</a></li>
-                <li><a href="#about">Services</a></li>
+                <li><a routerLink="/ourServices">Services</a></li>
               </ul>
         </div>
     </div>
+
   <router-outlet></router-outlet>
-  <!-- <app-landing></app-landing> -->
+
+  <div class="row">
+
+      <div class="col-md-12 footer">
+        <h6>Case studies</h6>
+        <ul>
+          <li>Saved</li>
+          <li>CarPlay</li>
+          <li>BFM</li>
+        </ul>
+        
+      </div>
+  </div>
+  
 </div>
 
 
