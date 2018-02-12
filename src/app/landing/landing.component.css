@@ -1,31 +1,33 @@
 #mainHeader {
-    font-family: Helvetica;
+    font-family: "Helvetica";
     font-style: normal;
-    font-weight: 400;
+    font-size: 2.4em;
     line-height: 1.2em;
     padding-bottom: 10px;
 }
 
-.color-white {
+.white {
     color: white;
 }
 
-.color-main-red {
+.red {
     color: rgb(181, 59, 84);
 }
 
 p.first {
     padding-bottom: 20px;
+    font-family: "PT Sans";
+    font-size: 1.2em;
 }
 
 p.black {
     padding-left:5%;
 }
 
-button.swwd {
+.whatWeDo {
     background-color: white;   
     border: none;
-    padding: 0px 28px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -33,7 +35,7 @@ button.swwd {
     font-size: 18px;
 }
 
-button.saos {
+button.allOurServices {
     background-color: rgb(202, 78, 97);
     border: none;
     padding: 10px 28px;
@@ -76,7 +78,7 @@ button.saos {
     padding-right: 0px;
   }
 
-  .logo-size {
+.logo-size {
     padding-left: 25px;
     padding-bottom: 15px;
       padding-top: 15px;
@@ -87,26 +89,3 @@ ul.vertical-data {
     padding-left:15px;
 }
 
-ul.top-nav-bar  {
-    list-style-type: none;
-    margin: 0;
-    padding-right: 25px;
-    overflow: hidden;
-}
-
-.top-nav-bar li {
-    font-size: 0.9em;
-    float: right;
-}
-
-.top-nav-bar a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.top-nav-bar a:hover {
-    color: grey;
-}

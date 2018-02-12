@@ -1,5 +1,20 @@
-<div>
-  <app-landing></app-landing>
+<div class="container-fluid no-padding" style="overflow:hidden;">
+    <div class="row">
+
+        <div class="col-lg-2">
+          <img class="logo-size" [src]="logoPath" alt="Snappymob logo" >
+        </div>
+        <div class="col-lg-10" style="margin:auto;">
+            <ul class="top-nav-bar">             
+                <li><a href="#home">Careers</a></li>
+                <li><a href="#news">Contact Us</a></li>
+                <li><a href="#contact">Case Studies</a></li>
+                <li><a href="#about">Services</a></li>
+              </ul>
+        </div>
+    </div>
+  <router-outlet></router-outlet>
+  <!-- <app-landing></app-landing> -->
 </div>
 
 

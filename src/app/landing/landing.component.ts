@@ -7,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  logoPath: string;
-  fullImagePath: string;
+  // logoPath: string;
+  userExpImg: string;
   bfmCarPlayPath: string;
+  
   constructor() {
-    this.logoPath = '/assets/images/snappymob-logo.png'
-    this.fullImagePath = '/assets/images/guide.jpg'
+    // this.logoPath = '/assets/images/snappymob-logo.png'
+    this.userExpImg = '/assets/images/guide.jpg'
     this.bfmCarPlayPath = '/assets/images/BFM_Car_Play.png'
   }
   

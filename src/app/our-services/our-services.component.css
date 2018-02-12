@@ -1,0 +1,37 @@
+.white {
+    color: white;
+}
+
+#grad { 
+    background: linear-gradient(to right, rgb(56, 51, 93), rgb(86, 82, 125));
+}
+
+#mainHeader {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.whatYouNeed {
+    background-color: transparent;   
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+}
